@@ -13,7 +13,7 @@
     background: white;
     display: flex;
     flex-direction: column;
-    transition: 0.5s;
+    transition: 0.9s;
   }
   header {
     height: 40px;
@@ -30,12 +30,5 @@
   }
   main p {
     width: auto;
-  }
-  #color:checked ~ section {
-    background: black;
-    color: white;
-  }
-  nav #color:checked ~ ul {
-    background: black;
   }
 }
