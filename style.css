@@ -4,11 +4,12 @@
   padding: 0;
   margin: 0;
 }
-body {
+section {
   font-family: Poppins;
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: 1s;
 }
 a {
   color: black;
@@ -90,4 +91,23 @@ label div {
   background: blue;
   margin: 2px;
   border-radius: 2px;
+}
+#color:checked ~ section {
+  background: black;
+  color: white;
+}
+#color:checked ~ section a {
+  color: white;
+}
+#color:checked ~ nav ul {
+  background: black;
+}
+.switch {
+  text-align: left;
+  align-items: left;
+  font-weight: 600;
+  transition: 1s;
+}
+.switch:hover {
+  color: blue;
 }

@@ -17,6 +17,7 @@
   }
   header {
     height: 40px;
+    transition: 1s;
   }
   header nav ul li {
     margin-bottom: 30px;
@@ -29,5 +30,12 @@
   }
   main p {
     width: auto;
+  }
+  #color:checked ~ section {
+    background: black;
+    color: white;
+  }
+  nav #color:checked ~ ul {
+    background: black;
   }
 }
