@@ -31,4 +31,20 @@
   main p {
     width: auto;
   }
+  .box {
+      width:auto;
+      margin:10px;
+  }
+  .box ul {
+      width:auto;
+  }
+  .box ul li p {
+      align-items:left;
+      margin:0 10px;
+      text-align:left;
+  }
+  .box ul li p .i {
+    align-items:left;
+    margin:0 10px;
+    text-align:left;
 }
