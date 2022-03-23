@@ -67,4 +67,14 @@
     border-radius: 8px;
     margin-top: 10px;
   }
+  .kn p {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  main p {
+    margin-top: 20px;
+    font-size: 13px;
+    margin-left: 10px;
+  }
 }
