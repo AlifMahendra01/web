@@ -224,3 +224,55 @@ i {
 .htt ul p {
   margin: 0;
 }
+.ttg {
+  margin: 40px 0;
+}
+.web {
+  border: 1px solid black;
+  display: block;
+  border-radius: 7px 7px 0 0;
+}
+.web h3 {
+  display: block;
+  text-align: left;
+  padding: 10px 10px 0 10px;
+}
+.web p {
+  display: block;
+  text-align: left;
+  padding: 10px 10px 0 10px;
+}
+.web ul {
+  display: block;
+  text-align: left;
+  padding: 0 40px 10px 40px;
+}
+.ttg label {
+  font-weight: 600;
+  border: 1px solid black;
+  background: blue;
+  color: white;
+  border-radius: 0 0 7px 7px;
+}
+.cd {
+  transition: 1s;
+  height: 0;
+  overflow: hidden;
+}
+.cd img {
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+#we {
+  display: none;
+}
+#we:checked ~ .cd {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  justify-content: center;
+  transition: 1s;
+}
