@@ -50,15 +50,52 @@ li a:hover,
 }
 
 /* ini bagian mainnya */
+.hider {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 20px;
+}
+#hide:checked ~ .side {
+  height: 100vh;
+  border-radius: 0px;
+}
 .side {
-  display:flex;
-  flex-direction:column;
-  height:100vh;
-  position:fixed;
-  left:20%;
-  background:black;
-  width:10%;
-  z-index:1;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  position: fixed;
+  left: ;
+  background: white;
+  border: 1px solid;
+  border-top: none;
+  text-align: center;
+  width: 50px;
+  border-radius: 0 0 10px 10px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 1s;
+}
+.side ul {
+  margin-top: 50px;
+  transition: 1s;
+}
+.side ul li {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.side ul li a {
+  color: black;
+  padding: 10px 10px;
+  margin: 10px 0;
+  background: blue;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 5px;
 }
 
 .tx {
@@ -66,7 +103,7 @@ li a:hover,
   flex-direction: column;
   align-items: center;
   margin-top: 150px;
-  margin-bottom:100px;
+  margin-bottom: 100px;
 }
 main {
   display: flex;
