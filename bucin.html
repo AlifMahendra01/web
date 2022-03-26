@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alif Mahendra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hp.css">
+</head>
+<body>
+    <section>
+        <header>
+            <div class="logo"><a href="index.html">Alif <span>M</span>ahendra</a></div>
+            <nav>
+                <input type="checkbox" name="" id="check">
+                <label for="check" class="checkbtn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
+                <ul>
+                    <li><a href="index.html" class="">Beranda</a></li>
+                    <li><a href="komunitas.html" class="active">Komunitas</a></li>
+                    <li><a href="info.html">Info Gweh</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h5 id="judul">kenalan ayok ka</h5>
+        <div class="sec none" id="fr">
+            <div class="te" onclick="iya()">mau</div>
+            <div class="te" onclick="engga()">engga</div>
+        </div>
+        <form action="" id="bucin" onsubmit="myForm">
+            <input type="text" id="nama" name="nama" placeholder="nama kamu">
+            <button type="button" onclick="myForm()">Submit</button>
+        </form>
+    </section>
+
+    <script>
+        function myForm() {
+            var val = document.getElementById("nama").value;
+
+            alert("hi ka " + val);
+            alert("aku cuma mau bilang kalo aku suka sama kamu");
+            alert("kalo aku sebenernya udah lama suka sama kamu");
+            alert("jadi... ");
+
+
+            const hilang = document.getElementById('bucin');
+            hilang.classList.toggle('none');
+
+            const pil = document.getElementById('fr');
+            pil.classList.toggle('none');
+
+            document.getElementById('judul').innerHTML = 
+            "jadi elu mau ga jadian ama gwe?"
+        }
+        function iya() {
+            var val = document.getElementById("nama").value;
+
+            alert("ya udah ayok jadian, sekarang panggil aku sayang ya");
+
+            document.getElementById('judul').innerHTML =
+            "hi ayang " + val;
+
+            const pil = document.getElementById('fr');
+            pil.classList.toggle('none');
+        }
+        function engga() {
+            var val = document.getElementById("nama").value;
+
+            alert("ya udah ga pa pa aku ikhlas kok kamu ama yang laeb");
+            alert("semoga elu bisa dapet yang lebih baik dari gwe");
+            alert("sorry ya udah suka ama elu");
+
+            document.getElementById('judul').innerHTML =
+            "makasih ya " + val + " elu udah jadi penyemangat gwe selama ini.";
+
+            const pil = document.getElementById('fr');
+            pil.classList.toggle('none');
+        }
+    </script>
+</body>
+</html>
+
+
+
+<!-- ini rumusnya ya guys yangjava script -->
+<!-- 
+    bucin = tabel data form.
+    judul = 
+ -->

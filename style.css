@@ -55,28 +55,28 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align:right;
-  align-items:right;
-  margin-top:150px;
+  text-align: right;
+  align-items: right;
+  margin-top: 150px;
   width: 80%;
 }
 .kn {
-  margin:80px 0 0 0;
-  text-align:left;
-  align-items:right;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
+  margin: 80px 0 0 0;
+  text-align: left;
+  align-items: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .kn p {
-  margin-left:0;
-  margin-right:200px;
-  margin-top:20px;
+  margin-left: 0;
+  margin-right: 200px;
+  margin-top: 20px;
 }
 main p {
   margin-top: 20px;
   font-size: 13px;
-  margin-left:200px;
+  margin-left: 200px;
 }
 main a {
   border: 1px solid blue;
@@ -304,4 +304,49 @@ i {
   overflow: hidden;
   justify-content: center;
   transition: 1s;
+}
+/* bucin bucin taik kucing */
+#judul {
+  margin-top: 300px;
+  font-weight: 400;
+}
+form {
+  margin-top: 10px;
+}
+form input {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: white;
+  background-visibility: 10%;
+  color: blue;
+  padding: 0 10px;
+  text-align: center;
+}
+form button {
+  height: 32px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: blue;
+  font-weight: 600;
+  color: white;
+}
+.sec {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  font-size: 14px;
+}
+.te {
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.none {
+  display: none;
 }
