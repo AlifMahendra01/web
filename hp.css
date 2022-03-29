@@ -77,12 +77,4 @@
     font-size: 13px;
     margin-left: 10px;
   }
-  .side {
-    height: 50px;
-  }
-  #hide:checked ~ .side {
-    height: 70vh;
-    border-radius: 3px;
-    overflow: scroll;
-  }
 }

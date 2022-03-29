@@ -10,7 +10,8 @@ section {
   flex-direction: column;
   align-items: center;
   transition: 1s;
-  background: white;
+  background: linear-gradient(cyan, white);
+  background-size: cover;
 }
 a {
   color: black;
@@ -22,10 +23,10 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: white;
+  background: ;
+  padding-top: 10px;
   text-align: center;
   align-items: center;
-  position: fixed;
 }
 nav {
   display: flex;
@@ -50,53 +51,6 @@ li a:hover,
 }
 
 /* ini bagian mainnya */
-.hider {
-  justify-content: center;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  margin-top: 15px;
-  font-size: 20px;
-}
-#hide:checked ~ .side {
-  height: 100vh;
-  border-radius: 0px;
-}
-.side {
-  display: flex;
-  flex-direction: column;
-  height: 50px;
-  position: fixed;
-  left: ;
-  background: white;
-  border: 1px solid;
-  border-top: none;
-  text-align: center;
-  width: 50px;
-  border-radius: 0 0 10px 10px;
-  z-index: 1;
-  overflow: hidden;
-  transition: 1s;
-}
-.side ul {
-  margin-top: 50px;
-  transition: 1s;
-}
-.side ul li {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-}
-.side ul li a {
-  color: black;
-  padding: 10px 10px;
-  margin: 10px 0;
-  background: blue;
-  font-size: 20px;
-  border: 1px solid;
-  border-radius: 5px;
-}
 
 .tx {
   display: flex;
@@ -403,4 +357,16 @@ form button {
 }
 .none {
   display: none;
+}
+
+/* inibuat setting yang di java script */
+section .toggle {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+}
+.black {
+  background: black;
 }

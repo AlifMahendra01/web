@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="hp.css">
 </head>
 <body>
-    <section>
+    <section id="brave">
         <header>
             <div class="logo"><a href="index.html">Alif <span>M</span>ahendra</a></div>
             <nav>
@@ -23,24 +23,22 @@
                     <li><a href="index.html" class="active">Beranda</a></li>
                     <li><a href="komunitas.html">Komunitas</a></li>
                     <li><a href="info.html">Info Gweh</a></li>
+                    <li><a href="">Seting</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="tx">
-            <main>
-                <h2>Its Me <span>Al</span>if Mahendra</h2>
-                <p>"ini cuma website buat ngambarin bahwa gwe itu sebagai web programer,walaupun gwe masih cupu ga kaya elo udah <span>pada jago roastign karya orang</span>, maap becanda awoaokw"</p>
-            </main>
-            <main class="kn">
-                <h2><span>bukan </span>website multi fungsi</h2>
-                <p>"ini cuma website buat ngambarin bahwa gwe itu sebagai web programer,walaupun gwe masih cupu ga kaya elo udah <span>pada jago roastign karya orang</span>, maap becanda awoaokw"</p>
-            </main>
+        <div class="toggle">
+            <h2 onclick="dark()">mode gelap</h2>
         </div>
     </section>
-    <div class="side">
-        
-    </div>
-
+    <script src="script.js"></script>
+    <script>
+        function dark() {
+            const ark = document.getElementById('brave');
+            ark.classList.toggle('black');
+            
+        }
+    </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>
